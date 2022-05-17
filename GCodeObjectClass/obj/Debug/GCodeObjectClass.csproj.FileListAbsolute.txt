@@ -1,0 +1,15 @@
+C:\Users\ATSmi\source\repos\GCodeObjectClass\obj\Debug\GCodeObjectClass.csproj.AssemblyReference.cache
+C:\Users\ATSmi\source\repos\GCodeObjectClass\obj\Debug\GCodeObjectClass.csproj.CoreCompileInputs.cache
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\GCodeObjectClass.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\GCodeObjectClass.pdb
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\GH_IO.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\Grasshopper.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\RhinoCommon.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\Mono.Cecil.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\GH_Util.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\GH_IO.xml
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\Grasshopper.xml
+C:\Users\ATSmi\source\repos\GCodeObjectClass\bin\Debug\RhinoCommon.xml
+C:\Users\ATSmi\source\repos\GCodeObjectClass\obj\Debug\GCodeObjectClass.csproj.CopyComplete
+C:\Users\ATSmi\source\repos\GCodeObjectClass\obj\Debug\GCodeObjectClass.dll
+C:\Users\ATSmi\source\repos\GCodeObjectClass\obj\Debug\GCodeObjectClass.pdb
