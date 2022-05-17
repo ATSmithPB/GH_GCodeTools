@@ -1,0 +1,12 @@
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\bin\Debug\net48\GrasshopperScripts.dll
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\bin\Debug\net48\GrasshopperScripts.pdb
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\bin\Debug\net48\GCodeObjects.dll
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\bin\Debug\net48\GCodeObjects.pdb
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.csproj.AssemblyReference.cache
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.AssemblyInfoInputs.cache
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.AssemblyInfo.cs
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.csproj.CoreCompileInputs.cache
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.csproj.CopyComplete
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.dll
+C:\Users\ATSmi\source\repos\GHParasite_GCode_00\obj\Debug\net48\GrasshopperScripts.pdb
