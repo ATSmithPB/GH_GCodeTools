@@ -25,7 +25,7 @@ namespace GCodeObjectClass
             Y = double.NaN;
             Z = double.NaN;
             E = double.NaN;
-            F = 0.0;
+            F = 0;
             Code = "";
             Line = "";
             Index = 9999;
@@ -155,12 +155,19 @@ namespace GCodeObjectClass
 
         public GCodeLine(Line ln, double f, double e, bool iT)
         {
-            this.X = ln.To.X;
-            this.Y = ln.To.Y;
-            this.Z = ln.To.Z;
-            this.F = f;
-            this.E = e;
+            this.X = Math.Round(ln.To.X,3);
+            this.Y = Math.Round(ln.To.Y, 3);
+            this.Z = Math.Round(ln.To.Z, 3);
+            this.F = Math.Round(f, 0);
             this.IsExtruding = !iT;
+            if (iT)
+            {
+                this.E = 0.0;
+            }
+            else
+            {
+                this.E = Math.Round(e, 5);
+            }
             this.HasCoord = true;
             this.HasPt = true;
             this.Code = "G1";
@@ -266,7 +273,7 @@ namespace GCodeObjectClass
                 }
 
                 //Sets Feedrate for all G1 lines
-                if (this.Lines[i].F != 0.0)
+                if (this.Lines[i].F != 0)
                 {
                     currentF = this.Lines[i].F;
                 }
@@ -278,6 +285,19 @@ namespace GCodeObjectClass
         }
 
         //GCode Class Methods
+        /// <summary>
+        /// Returns an array of GCode Line data for all GCodeLines in a GCode object
+        /// </summary>
+        /// <returns></returns>
+        public string[] GetLines()
+        {
+            string[] val = new string[this.Length];
+            for (int i = 0; i < this.Length; i++)
+            {
+                val[i] = this.Lines[i].Line;
+            }
+            return val;
+        }
         /// <summary>
         /// Returns an array of X values for all GCodeLines in a GCode object
         /// </summary>
